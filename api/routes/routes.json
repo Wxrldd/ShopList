@@ -1,0 +1,52 @@
+[
+  {
+    "path": "/",
+    "controller": "Home",
+    "action": "Index",
+    "method": "GET",
+    "params": []
+  },
+  {
+    "path": "/perso/add",
+    "controller": "Perso",
+    "action": "Add",
+    "method": "POST",
+    "params": [
+      "perso"
+    ]
+  },
+  {
+    "path": "/perso/get/list",
+    "controller": "Perso",
+    "action": "ShowList",
+    "method": "GET",
+    "params": []
+  },
+  {
+    "path": "/perso/get",
+    "controller": "Perso",
+    "action": "Show",
+    "method": "GET",
+    "params": [
+      "id"
+    ]
+  },
+  {
+    "path": "/perso/update",
+    "controller": "Perso",
+    "action": "Update",
+    "method": "PUT",
+    "params": [
+      "perso"
+    ]
+  },
+  {
+    "path": "/perso/delete",
+    "controller": "Perso",
+    "action": "Delete",
+    "method": "DELETE",
+    "params": [
+      "id"
+    ]
+  }
+]
