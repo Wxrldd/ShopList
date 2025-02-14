@@ -1,11 +1,12 @@
 import { Link } from "react-router";
-import AddPerso from "~/components/AddPerso/AddPerso";
+import AddItem from "~/components/AddItem/AddItem";
+import '../app.css';
 
 export default function ShowAddForm() {
   return (
     <>
-      <Link to="/">Retour à l'accueil</Link>
-      <AddPerso />
+      <Link to="/" className="btn-back">Retour à l'accueil</Link>
+      <AddItem />
     </>
   );
 }

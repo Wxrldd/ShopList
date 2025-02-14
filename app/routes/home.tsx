@@ -1,20 +1,17 @@
 import { Link } from "react-router";
-import type { Route } from "./+types/home";
-
-export function meta({}: Route.MetaArgs) {
-  return [
-    { title: "Accueil" },
-    { name: "description", content: "Bienvenue sur l'application React PHP Coda." },
-  ];
-}
+import '../app.css';
 
 export default function Home() {
-  return <>
-    <Link to="/perso/add">
-      Ajouter un personnage
-    </Link>
-    <Link to="/perso/list">
-      Voir la liste des personnages
-    </Link>
-  </>;
+  return (
+    <>
+      <h1 className="title-accueil">Accueil</h1>
+        <Link to="/item/add">
+          Ajouter un item
+        </Link>
+        <Link to="/item/list">
+          Voir la liste des items
+        </Link>
+
+    </>
+  );
 }
