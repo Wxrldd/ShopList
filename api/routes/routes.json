@@ -7,24 +7,24 @@
     "params": []
   },
   {
-    "path": "/perso/add",
-    "controller": "Perso",
+    "path": "/item/add",
+    "controller": "Item",
     "action": "Add",
     "method": "POST",
     "params": [
-      "perso"
+      "item"
     ]
   },
   {
-    "path": "/perso/get/list",
-    "controller": "Perso",
+    "path": "/item/get/list",
+    "controller": "Item",
     "action": "ShowList",
     "method": "GET",
     "params": []
   },
   {
-    "path": "/perso/get",
-    "controller": "Perso",
+    "path": "/item/get",
+    "controller": "Item",
     "action": "Show",
     "method": "GET",
     "params": [
@@ -32,17 +32,17 @@
     ]
   },
   {
-    "path": "/perso/update",
-    "controller": "Perso",
+    "path": "/item/update",
+    "controller": "Item",
     "action": "Update",
     "method": "PUT",
     "params": [
-      "perso"
+      "item"
     ]
   },
   {
-    "path": "/perso/delete",
-    "controller": "Perso",
+    "path": "/item/delete",
+    "controller": "Item",
     "action": "Delete",
     "method": "DELETE",
     "params": [
