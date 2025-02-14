@@ -7,6 +7,13 @@
     "params": []
   },
   {
+    "path": "/manage",
+    "controller": "Manage",
+    "action": "Index",
+    "method": "GET",
+    "params": []
+  },
+  {
     "path": "/item/add",
     "controller": "Item",
     "action": "Add",
